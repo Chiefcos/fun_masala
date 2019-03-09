@@ -1,0 +1,372 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'), url(https://fonts.gstatic.com/s/dancingscript/v9/If2RXTr6YS-zF4S-kcSWSVi_szLgiuE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Crafty Girls';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Crafty Girls Regular'), local('CraftyGirls-Regular'), url(https://fonts.gstatic.com/s/craftygirls/v8/va9B4kXI39VaDdlPJo8N_NveRhf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v11/TUZyzwprpvBS1izr_vOECuSf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family:'Crafty Girls';
+    text-align: center;
+    width:100%;
+}
+.box{
+    cursor: pointer;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    display: inline-block;
+    height: 10em;
+    width: 12em;
+    clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0% 50%);
+}
+.a{
+    top: 5em;
+    /*Food1*/
+    background-image: url(https://www.ocf.berkeley.edu/~sather/wp-content/uploads/2018/01/food--1200x600.jpg);
+}
+.b{
+    left: 11em;
+    top: 11em;
+    /*Music1*/
+    background-position-y: -0.5em;
+    background-image: url(https://image.freepik.com/free-vector/circle-made-of-music-instruments_23-2147509304.jpg);
+
+}
+.c{
+    top: 16.5em;
+    /*Fashion1*/
+    background-image: url(https://www.incimages.com/uploaded_files/image/970x450/getty_583734066_335273.jpg);
+}
+.d{
+    top: 5em;
+    left: 22em;
+    /*Music2*/
+    background-image: url(https://data.whicdn.com/images/323310484/original.jpg?t=1543924258);
+    background-position-x: -5em;
+}
+.e {
+    top: 16.5em;
+    left: 22em;
+    /*Dance1*/
+    background-image: url(http://www.hollandandbarrett.ae/blog/wp-content/uploads/2017/02/Our-Top-5-Tips-for-a-Continued-Healthy-Lifestyle.jpg);
+}
+.f{
+    top: 11em;
+    left: 33em;
+    z-index: 1;
+        /*Food2*/
+    background-image: url(https://caspiannews.com/media/caspian_news/all_original_photos/1528831479_7183783_1528831390_5761793SFF-Foto-2018-001web2.jpg);
+}
+.g{
+    top: 5em;
+    left: 44em;
+    background-position-x: -5em;
+    /*Music3*/
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxsu3I1v0neXo4cv7aa4s8KrTDDLobZVEymRoxF0mzdNW7HY3y);
+}
+.h{
+    left: 44em;
+    top: 16.5em;
+    /*Fashion2*/
+    background-image: url(https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/05/105312566-1530803740357gettyimages-815863456.1910x1000.jpeg);
+}
+.i{
+    left: 55em;
+    top: 11em;
+    /*Dance2*/
+    background-image: url(https://blog.holidaylettings.co.uk/wp-content/uploads/2015/04/lifestyle.jpg);
+}
+.j{ 
+    top: 5em;
+    left: 66em;
+        /*Food3*/
+    background-image: url(https://www.naco.org/sites/default/files/calorie-and-Food-beliefs.jpg);
+}
+.k{ 
+    left: 66em;
+    top: 16.5em;
+    background-position-x: -3em;
+    /*Music4*/
+    background-image: url(https://hhp-blog.s3.amazonaws.com/2018/05/iStock-696537216-300x200.jpg);
+}
+.l{
+    left:77em;
+    top: 11em;
+    /*Dance4*/
+    background-image: url(https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/620/cached.offlinehbpl.hbpl.co.uk/news/PGH/iStock-622179362-201708151002257371-20180603110453106.jpg);
+}
+.m{
+    top: 5em;
+    left: 88em;
+        /*Food4*/
+    background-image: url(https://asset2.cxnmarksandspencer.com/is/image/mands/44e79d5a6007d11fd420b6c302d0f2fc0ef404da?$Homepage_600x330$);
+}
+.n{
+    left: 88em;
+    top: 16.5em;
+    /*Fashion3*/
+    background-image: url(https://www.fluentin3months.com/wp-content/uploads/2017/03/traveling-jobs.jpg);
+}
+.Title{
+    z-index: 2;
+    /*margin-left: 3em;*/
+    color: yellow;
+    font-size: 142px; 
+    position: fixed;
+    display: inline-block;
+    top: 3.5em;
+    text-shadow: 2px 2px black;
+    font-family:'Crafty girls';
+    /*border: 2px yellow solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px yellow;
+    background: rgba(255, 255, 0, 0.2);
+    */
+}
+h1{
+    color: black;
+    text-align: center;
+}
+/*
+.backgroundcolor.fashion{
+    height: 5000px;
+    background-color: #F6cde6;
+}
+.backgroundcolor.dance{
+    height:5000px;
+    background-color: #ffe5bc;
+}
+.backgroundcolor.food{
+    height:5000px;
+    background-color: #ddf9d9
+}
+.backgroundcolor.music{
+    height:5000px;
+    background-color: #add9fe;
+}
+*/
+.homebutton{
+    position: fixed;
+    text-decoration: none;
+    font-family: 'Crafty Girls';
+    color: yellow;
+    text-shadow: 1px 1px black;
+    font-size: 32px;
+    top: 0px;
+}
+.button{
+    position: fixed;
+}
+.grid{
+    margin-top: 50em;
+    display: grid;
+    height: 5000px;
+    width: 99.7%;
+    grid-template: repeat(30, 1fr) / repeat(12, 1fr);
+    grid-gap: 5px;
+}
+.picture{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+    border-radius: 10px;
+    background-position: center;
+    grid-row: 1 / 5;
+    grid-column: 1 / 11;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+}
+.text{
+    background: rgba(255,255,255,0.8);
+    grid-row: 5 / 11;
+    grid-column: 1 / 11;
+    color: black;
+    text-align: center;
+    font-family: 'Amatic SC';
+}
+.article{
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 3;
+    display: grid;
+    height: 30em;
+    width: 31em;
+    grid-template: repeat(10, 1fr), repeat(10, 1fr);
+    grid-gap: 5px;
+}
+.article.A1{
+    grid-row: 1 / 4;
+    grid-column: 1 / 5;
+
+}
+.article.A2{
+    grid-row: 1 / 4;
+    grid-column: 5 / 9;
+}
+.article.A3{
+    grid-row: 1 / 4;
+    grid-column: 9 / 13;
+}
+.article.A4{
+    grid-row: 4 / 8;
+    grid-column: 1 / 5;
+
+}
+.article.A5{
+    grid-row: 4 / 8;
+    grid-column: 5 / 9;
+
+}
+.article.A6{
+    grid-row: 4 / 8;
+    grid-column: 9 / 13;
+}
+p{
+    font-family: "Amatic SC"; 
+    font-size: 20px;
+}
+.headline{
+    font-family:"Crafty Girls";
+    font-size: 60px;
+    margin-top: 100px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+.alt{
+    background: black;
+    transform: scale(1.2);
+}
+.hide{
+    margin-top: 25%;
+    font-family: 'Crafty Girls';
+    color: white;
+    text-shadow: 0 0 40px yellow;
+}
+.fullscreen{
+    grid-row: 1 / 8;
+    grid-column: 1 / 13;
+}
+.anchor{
+    cursor: pointer;
+}
+.bootarticle.start{
+    margin-top: 60em;
+    height:15em;
+    background-size: cover;
+}
+.bootarticle.start.a1{
+    background-image: url(http://www.hollandandbarrett.ae/blog/wp-content/uploads/2017/02/Our-Top-5-Tips-for-a-Continued-Healthy-Lifestyle.jpg);
+}
+.bootarticle.start.a2{
+    background-image: url(https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/620/cached.offlinehbpl.hbpl.co.uk/news/PGH/iStock-622179362-201708151002257371-20180603110453106.jpg);
+}
+.bootarticle.start.a3{
+    background-image: url(https://asset2.cxnmarksandspencer.com/is/image/mands/44e79d5a6007d11fd420b6c302d0f2fc0ef404da?$Homepage_600x330$);
+}
+.bootarticle{
+    border-radius: 5px;
+    height: 15em;
+    z-index: 6;
+    width: 25em;
+    overflow: hidden;
+}
+.bootarticle.inbetween{
+    margin-top: 1em;
+}
+.bootarticle.inbetween.a1{
+    background-image: url(https://www.fluentin3months.com/wp-content/uploads/2017/03/traveling-jobs.jpg);
+    background-size: cover;
+}
+.bootarticle.inbetween.a2{
+    background-image: url(https://caspiannews.com/media/caspian_news/all_original_photos/1528831479_7183783_1528831390_5761793SFF-Foto-2018-001web2.jpg);
+    background-size: cover;
+}
+.bootarticle.inbetween.a3{
+    background-image: url(https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/05/105312566-1530803740357gettyimages-815863456.1910x1000.jpeg);
+    background-size: cover;
+}
+.bootarticle.text{
+    background: rgba(255,255,255, 0.8);
+    overflow: hidden;
+}
+.bootarticle.big.picture{
+    height:25em;
+    position: fixed;
+    left: 0px;
+    z-index: 8;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bootarticle.big.text{
+    height:18em;
+    position: fixed;
+    left: 0px;
+    margin-top:16em;
+    z-index: 8;
+    font-size: 25px;
+}
+.bootarticle.footertext{
+    height: 2em;
+    background: rgba(255,255,255, 0.8);
+    font-size: 25px;
+}
+    
+.close{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    z-index: 4;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+    border: 2px solid white;
+    margin-left: 4px;
+    margin-top: 4px;
+    background-color: black;
+    left: 0px;
+    top: 0px;
+}
+p.close{
+    color: white;
+    z-index: 6;
+}
+.footer{
+    height: 10em;
+    margin-top: 20em;
+    background: black;
+    z-index: 5;
+    text-align: right;
+    color: white;
+}
